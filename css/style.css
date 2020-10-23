@@ -1,0 +1,71 @@
+/* Typographie */
+
+Html {
+	police-famille: 'Roboto', sans-serif;
+}
+
+@media (largeur min: 576px ) {
+	Html {
+		police taille: 14px ;
+	}
+}
+
+@media (largeur min: 768px ) {
+	Html {
+		police-taille: 16px ;
+	}
+}
+
+@media (largeur min: 992px ) {
+	Html {
+		taille de police: 18px ;
+	}
+}
+
+@media (largeur min: 1200px ) {
+	Html {
+		taille de police: 20px ;
+	}
+}
+
+. icônes-sociales i {
+	police-taille: 3em ;
+}
+
+/* Styles personnalisés */
+
+Principal {
+	affichage: flex;
+	flex-direction: colonne;
+	min-hauteur: 100vh ;
+	justifier-contenu: centre;
+	rembourrage: 0 30px ;
+	alignement de texte: centre;
+}
+
+principal > . intro {
+	police-famille: 'Reem Kufi', sans-serif;
+	police-taille: 3.75em ;
+	poids de police: 600;
+}
+
+principal > . slogan {
+	police-taille: 1.5rem ;
+	marge: 1,5rem  0;
+	font-weight: 100;
+}
+
+. icônes-sociales i {
+	rembourrage: 10px ;
+}
+
+. devto {
+	marge-bas: -0.20rem ;
+}
+
+. devto svg {
+	marge-bas: -0.20rem ;
+	marge gauche: 0,675rem ;;
+ largeur: 2.65rem;
+ hauteur: 2.65rem;
+}
